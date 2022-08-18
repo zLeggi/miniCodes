@@ -1,14 +1,14 @@
-var currentNumberWapper = document.getElementById('currentNumber')
-var currentNumber = 0;
+var alterarNumeroNatural = document.getElementById('numeroAtual')
+var numeroAtual = 0;
 
-function increment() {
+function incremento() {
 
-  currentNumber = currentNumber + 1;
-  currentNumberWapper.innerHTML = currentNumber;
+  numeroAtual = numeroAtual + 1;
+  alterarNumeroNatural.innerHTML = numeroAtual;
 
 }
 
-function decrement() {
-  currentNumber = currentNumber - 1;
-  currentNumberWapper.innerHTML = currentNumber;
+function decremento() {
+  numeroAtual = numeroAtual - 1;
+  alterarNumeroNatural.innerHTML = numeroAtual;
 }
